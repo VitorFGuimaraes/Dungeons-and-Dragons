@@ -1,0 +1,23 @@
+.main {
+    padding: 2rem;
+  }
+  
+  .class__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .class-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .class-item:hover {
+    background-color: #eee;
+  }
